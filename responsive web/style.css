@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Montserrat:wght@500&display=swap');
+
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+
+.container
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+nav
+{
+    height: 50px;
+    width: 100%;
+    /* background-color: lightslategrey; */
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4vw;
+}
+.logo
+{
+    height: inherit;
+    padding: 5px 20px;
+    mix-blend-mode: color-burn;
+}
+.nav-2
+{
+    display: flex;
+    gap: 4vw;
+    align-items: center;
+}
+
+nav h4
+{
+    font-size: 1.1vw;
+    cursor: pointer;
+
+}
+nav i
+{
+    font-weight: 800;
+    display: none;
+}
+nav button
+{
+    /* padding: 9px 20px; */
+    font-size: 1vw;
+    padding: 0.9vw 2vw;
+    background-color:  #3f3d7b;
+    border-radius: 7px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media (max-width:600px)
+{
+    nav
+    {
+        /* background-color: royalblue; */
+        color: white;
+        padding: 0 5vw;
+        
+    }   
+    .nav-2 button
+    {
+        display: none;
+    } 
+    .nav-2 h4
+    {
+        display: none;
+        font-size: 4vw;
+    }
+    .nav-2 i
+    {
+        display: block;
+        font-size: 6vw;
+        color: black;
+    }
+}
+
+
+/* imp  */
+
+.content
+{
+    width: 100%;
+    height: calc(100% - 45px);
+    display: flex;
+}
+
+/* imp  */
+
+
+.left
+{
+    height: 100%;
+    width: 55%;
+    padding: 5vw 5vw;
+}
+.left h1
+{
+    font-size: 4.2vw;
+    line-height: 4.4vw;
+}
+.left h1 span
+{
+    color:  #3f3d7b;
+    font-style: italic;
+}
+.left p
+{
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: #666;
+    width: 80%;
+    margin-top: 1.5vw;
+    margin-bottom: 3vw;
+}
+button
+{
+    font-size: 1.2vw;
+    padding: 1.1vw 2.3vw;
+    background-color:  #3f3d7b;
+    border-radius: 7px;
+    color: #fff;
+    font-weight: 700;
+}
+.right
+{
+    height: 100%;
+    width: 45%;
+}
+.right img
+{
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,85 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "poppins" , sans-serif;
+}
+
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: gray;
+}
+
+.btn
+{
+    height: 40px;
+    width: 115px;
+    border-radius: 13px;
+    background-color: royalblue;
+    color: white;
+    border: 0;
+    outline: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+button:hover
+{
+    box-shadow: 2px 1px 18px rgba(0, 0, 0, .5);
+    transition: ease-in-out 10s ease-in-out 10s;
+}
+
+.popup1
+{
+    width: 400px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    border: 0.8px solid rgb(143, 131, 131);
+    border-radius: 6px;
+    transform: translate(-50% , -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s; 
+}
+
+.open-popup
+{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50% , -50%) scale(1);
+}
+
+.popup1 img
+{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.popup1 h2
+{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+.popup1 button
+{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #6fd649;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
